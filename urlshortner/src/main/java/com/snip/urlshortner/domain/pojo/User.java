@@ -1,6 +1,6 @@
 package com.snip.urlshortner.domain.pojo;
 
-import com.sivalabs.urlshortener.domain.models.Role;
+import com.snip.urlshortner.domain.models.Role;
 import jakarta.persistence.*;
 import org.hibernate.annotations.ColumnDefault;
 
