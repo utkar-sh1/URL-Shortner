@@ -1,4 +1,5 @@
 # Build Directories
+/target/
 target/
 build/
 *.jar
@@ -32,6 +33,7 @@ node_modules/
 .idea/
 *.iml
 *.iws
+*.lst
 *.ipr
 *.launch
 .vscode/
