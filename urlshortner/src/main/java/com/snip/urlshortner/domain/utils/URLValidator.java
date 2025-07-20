@@ -29,7 +29,7 @@ public class URLValidator {
             log.warn("Invalid URL format: {}", urlString);
             return false;
         }
-
+        log.debug("URL format is valid, checking if it exists: {}", urlString);
         return isUrlExists(urlString);
     }
 
