@@ -1,0 +1,59 @@
+# Build Directories
+/target/
+target/
+build/
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven & Wrapper
+.mvn/
+mvnw*
+!mvnw.cmd
+
+# Gradle
+.gradle/
+gradle-build/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Dependency Management (Node.js)
+node_modules/
+
+# IDE Support (Eclipse, IntelliJ IDEA, VSCode)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+.idea/
+*.iml
+*.iws
+*.lst
+*.ipr
+*.launch
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Log Files
+logs/
+*.log
+*.log.gz
+*.log-*.gz
+
+# Documentation
+HELP.md
